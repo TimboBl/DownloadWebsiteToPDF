@@ -47,6 +47,7 @@ $output = [string]$i + ".pdf"
 $command = $url + $i
 & "wkhtmltopdf" $command $output
 }
+}
 
 function randomLocationURL
 {
@@ -78,8 +79,6 @@ $command = $url.replace(" ", $website)
 
 #Actual Program starts running here
 
-Read-Host "Press the enter key to exit"
-}
 
 $decision = Read-Host "Where is the page number in the url? \n At the end (1) \n Somewhere in the middle (2)"
 
@@ -103,3 +102,5 @@ else
 {
 Read-Host "There was an error! Exit with enter"
 }
+
+Read-Host "Press the enter key to exit"
