@@ -93,10 +93,13 @@ endOfUrlPageNumberSingle
 else
 {
 endOfUrlPageNumberSequential
-Read-Host "Waiting"
 }
+}
+elseif ($decision -eq "2")
+{
+randomLocationURL
 }
 else
 {
-Read-Host "This is not supposed to happen"
+Read-Host "There was an error! Exit with enter"
 }
