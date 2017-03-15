@@ -1,5 +1,16 @@
 # Welcome to DownloadWebsitesToPDF's Readme File!
 
+## General Use:
+This script is intended to be used on websites that display content on single pages, where the URL holds the page number and this number incements on every page.
+
+Find a website that has the content you want to save as PDF on it.
+Look at the URL.
+If the URL has a Page Number something like this: www.somedomain.com/someSite-page1.html
+And the Next Page is the same thing just with a 2 instead of a 1, open up the script!
+Copy the URL WITHOUT the number!
+Paste it in. Here you'd use the Somewhere in the middle mode of the script.
+And then proceed as promted on screen.
+
 ## If you are running a Windows Build and do not have wkhtmltopdf installed:
 You need to have a tool called wkhtmltopdf installed. You can find a download for your Windows here: https://wkhtmltopdf.org/downloads.html
 Choose from the Table with available Downloads. Choose the top-most windows Flavor and Proceed to download either the 32bit or the 64bit version, depending on what Windows you are using.
@@ -31,6 +42,15 @@ From here on the script should run as expected.
 
 
 # Wilkommen bei DownloadWebsitesToPDF's Readme Datei!
+
+##Allgemeine Nutzung:
+Mit diesem Skript können Websiten als PDF gespeichert werden, die Daten auf Fortlaufenden Seiten haben.
+
+Wenn du eine Website hast, auf der Daten sind, die du gerne als PDF speichern würdest schau dir die URL an.
+Wenn die URL ein Format hat, in dem eine Seitenzahl ist wie in diesem Beispiel: www.somedoamin.com/someSite-page1.html,
+und die Nächste Seite statt der 1 eine 2 hat, dann ist das Skript geeignet dir die Arbeit abzunehmen.
+Kopiere die URL OHNE die Nummer und füge sie unter der Korrekten option in das Skript ein.
+Folge danach den Anweisungen auf dem Bildschirm. 
 
 ## Wenn du Windows installiert hast:
 Lade dir zuerst wkhtmltopdf herunter. Der Link für den Download ist hier: https://wkhtmltopdf.org/downloads.html
