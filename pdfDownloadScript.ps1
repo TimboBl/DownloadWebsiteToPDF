@@ -18,7 +18,14 @@ foreach ($website In $pageNumbers)
   $output = $website + ".pdf"
 
 $command = $url + $website
+try
+{
 & "wkhtmltopdf" $command $output
+}
+catch
+{
+Write-Host "You do not have wkhtmltopfd installed! `n Please check the README File for help"
+}
 }
 }
 
@@ -45,7 +52,14 @@ for ($i = $pageRange[0]; $i -le $pageRange[-1]; $i++)
 $output = [string]$i + ".pdf"
 
 $command = $url + $i
+try
+{
 & "wkhtmltopdf" $command $output
+}
+catch
+{
+Write-Host "You do not have wkhtmltopfd installed! `n Please check the README File for help"
+}
 }
 }
 
@@ -70,7 +84,14 @@ foreach ($website In $pageNumbers)
 $output = $website + ".pdf"
 
 $command = $url.replace(" ", $website)
+try
+{
 & "wkhtmltopdf" $command $output
+}
+catch
+{
+Write-Host "You do not have wkhtmltopfd installed! `n Please check the README File for help"
+}
 }
 
 }
