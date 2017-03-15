@@ -48,6 +48,32 @@ $command = $url + $i
 & "wkhtmltopdf" $command $output
 }
 
+function randomLocationURL
+{
+$url = Read-Host "Input the URL with a space where the page number is located"
+
+$pageNumbers = @()
+
+do
+{
+$input = (Read-Host "Please enter every page you want to download seperatley. End your entry with the . symbol!")
+if($input -ne ".")
+{
+$pageNumbers += $input
+}
+}
+until ($input -eq ".")
+
+foreach ($website In $pageNumbers)
+{
+$output = $website + ".pdf"
+
+$command = $url.replace(" ", $website)
+& "wkhtmltopdf" $command $output
+}
+
+}
+
 
 
 #Actual Program starts running here
