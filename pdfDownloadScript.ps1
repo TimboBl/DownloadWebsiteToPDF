@@ -80,11 +80,11 @@ $command = $url.replace(" ", $website)
 #Actual Program starts running here
 
 
-$decision = Read-Host "Where is the page number in the url? \n At the end (1) \n Somewhere in the middle (2)"
+$decision = Read-Host "Where is the page number in the url? `n At the end (1) `n Somewhere in the middle (2)"
 
 if ($decision -eq "1")
 {
-$decision = Read-Host "Do you want to download single pages or a sequence of pages? Single Pages (1) Sequence of pages (2)"
+$decision = Read-Host "Do you want to download single pages or a sequence of pages? Single Pages (1) `n Sequence of pages (2)"
 if ($decision -eq "1")
 {
 endOfUrlPageNumberSingle
