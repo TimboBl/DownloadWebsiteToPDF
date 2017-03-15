@@ -1,4 +1,4 @@
-#Author Marc Blaesche
+#Author Marc Blaesche Kontakt: blaesche.m@gmail.com
 
 function endOfUrlPageNumberSingle
 {
