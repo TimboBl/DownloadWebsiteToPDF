@@ -1,4 +1,4 @@
-#Author Marc Blaesche Kontakt: blaesche.m@gmail.com
+#Author CkFreak Kontakt: 5blaesch@informatik.uni-hamburg.de
 
 function endOfUrlPageNumberSingle
 {
