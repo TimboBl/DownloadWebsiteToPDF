@@ -25,6 +25,7 @@ try
 catch
 {
 Write-Host "You do not have wkhtmltopfd installed! `n Please check the README File for help"
+break
 }
 }
 }
@@ -59,6 +60,7 @@ try
 catch
 {
 Write-Host "You do not have wkhtmltopfd installed! `n Please check the README File for help"
+break
 }
 }
 }
@@ -91,6 +93,7 @@ try
 catch
 {
 Write-Host "You do not have wkhtmltopfd installed! `n Please check the README File for help"
+break
 }
 }
 
