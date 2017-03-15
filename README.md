@@ -1,12 +1,12 @@
-#Welcome to DownloadWebsitesToPDF's Readme File!
+# Welcome to DownloadWebsitesToPDF's Readme File!
 
-##If you are running a Windows Build and do not have wkhtmltopdf installed:
+## If you are running a Windows Build and do not have wkhtmltopdf installed:
 You need to have a tool called wkhtmltopdf installed. You can find a download for your Windows here: https://wkhtmltopdf.org/downloads.html
 Choose from the Table with available Downloads. Choose the top-most windows Flavor and Proceed to download either the 32bit or the 64bit version, depending on what Windows you are using.
 After Downloading the .exe file proceed to install it. The installer is simple and you just need to click next a bunch of times. Remember the install location for later!
 Continue with the next step to get the script running as intended
 
-##If you have wkhtmltopdf intalled but get the error anyways:
+## If you have wkhtmltopdf intalled but get the error anyways:
 On any version of Windows from Windows 7 on right-click the start button and choose the menu entry "System". On the right hand side are some "links" that you can click.
 Choose Advanced System Options. A new window will pop up.
 Choose the Advanced Tab from the top of the new window and navigate to the very bottom where you can find a button labeled Environment Variables.
@@ -19,7 +19,7 @@ After closing all the windows by hitting ok the script should run without any er
 If the error still persist, try adding the path by navigating to the wkhtmltopdf folder in the explorer, copying the current path by clicking the navigation bar and then pasting what you get there as path into a new
 Path Variable from the window where you hit Search earlier.
 
-##If you are running MacOS
+## If you are running MacOS
 You need to download two applications: PowerShell and wkhtmltopdf.
 PowerShell can be found here: https://github.com/PowerShell/PowerShell (Scroll down to the bottom of the page and choose MacOS .pkg)
 wkhtmltopdf can be downloaded for MacOS here: https://wkhtmltopdf.org/downloads.html
@@ -30,16 +30,16 @@ Confirm with your password and install the packages.
 From here on the script should run as expected.
 
 
-#Wilkommen bei DownloadWebsitesToPDF's Readme Datei!
+# Wilkommen bei DownloadWebsitesToPDF's Readme Datei!
 
-##Wenn du Windows installiert hast:
+## Wenn du Windows installiert hast:
 Lade dir zuerst wkhtmltopdf herunter. Der Link für den Download ist hier: https://wkhtmltopdf.org/downloads.html
 Wähle das erste Windows Flavor aus der Tabelle aus. Je nachem welche Art von Windows du installiert hast wähle 32 oder 64 bit als download aus.
 Nachdem der Download abgeschlossen ist, starte die Installation per doppelklick auf die .exe Datei.  
 Merke dir wohin wkhtmltopdf installiert wird, weil der Pfad gleich noch benötigt wird!
 Im nächsten Schritt wird das weitere Vorgehen erklärt
 
-##Wenn du wkhtmltopdf installiert hast aber der Fehler immernoch auftritt:
+## Wenn du wkhtmltopdf installiert hast aber der Fehler immernoch auftritt:
 Für Windwos Versionen ab Windows 7 funktioniert das Skript. Klicke mit der Rechten Maustaste auf den Start Button und wähle "System" aus.
 Aus der linken Tab Leiste wähle "Erweiterte Systemeinstellungen" aus. Es öffnent sich ein Fenster.
 Wähle aus den Tabs oben im Fenster "Erweitert" aus. Ganz unten in diesem Fenster befindet sich ein Knopf mit der Aufschrift "Umgebungsvariablen". Klicke diesen.
@@ -54,7 +54,7 @@ kopiere die Addresse.
 Öffne wieder das Umgebungsvaribalen Fenster und lösche die alte, soeben erstellte Variable und drücke auf "Neu". In das neue Feld wird nun der soeben kopierte Pfad eingefügt.
 Schließe wieder alles mit "OK". Jetzt sollte alles funktionieren.
 
-##Wenn du auf einem Mac arbeitest:
+## Wenn du auf einem Mac arbeitest:
 Für Mac ist die Installation um einiges leichter.
 Es werden zwei Programme benötigt. Zum einen PowerShell für MacOS, welches man hier finden kann: https://github.com/PowerShell/PowerShell (Nach unten scrollen und aus der Tabelle MacOS .pkg auswählen)
 Das zweite Programm heißt wkhtmltopdf und kann hier herunter geladen werden: https://wkhtmltopdf.org/downloads.html
