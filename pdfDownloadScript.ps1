@@ -33,15 +33,16 @@ do
 $input = (Read-Host "Please enter the first and the last Index you want to download (Starting at 1). End with a . Symbol as third entry")
 if($input -ne ".")
 {
-$stringToInt = [convert]::ToInt32($input, 10); # 10 is the base
-$pageRange += $stringToInput
+[int]$stringToInt = [convert]::ToInt32($input, 10); # 10 is the base
+$pageRange += $stringToInt
+
 }
 }
 until ($input -eq ".")
 
-for ($i = $pageRange[0]; $i -lt $pageRange[-1]; $i++)
+for ($i = $pageRange[0]; $i -le $pageRange[-1]; $i++)
 {
-$output = $i + ".pdf"
+$output = [string]$i + ".pdf"
 
 $command = $url + $i
 & "wkhtmltopdf" $command $output
