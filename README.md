@@ -43,7 +43,7 @@ From here on the script should run as expected.
 
 # Wilkommen bei DownloadWebsitesToPDF's Readme Datei!
 
-##Allgemeine Nutzung:
+## Allgemeine Nutzung:
 Mit diesem Skript können Websiten als PDF gespeichert werden, die Daten auf Fortlaufenden Seiten haben.
 
 Wenn du eine Website hast, auf der Daten sind, die du gerne als PDF speichern würdest schau dir die URL an.
